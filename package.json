@@ -1,0 +1,22 @@
+{
+  "name": "projet3-openclassroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CorentinBfls/BeaufilsCorentin_3_05102021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CorentinBfls/BeaufilsCorentin_3_05102021/issues"
+  },
+  "homepage": "https://github.com/CorentinBfls/BeaufilsCorentin_3_05102021#readme",
+  "dependencies": {
+    "sass": "^1.42.1"
+  }
+}
