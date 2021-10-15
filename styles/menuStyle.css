@@ -1,0 +1,25 @@
+/* Eléments principaux de la page */
+body
+{
+    font-family: 'Roboto',sans-serif;
+    color: black;
+}
+
+h1
+{
+    font-family: 'Shrikhand',sans-serif;
+    color: black;
+}
+
+.bloc_page
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Header */
+header 
+{
+    display: flex;
+    justify-content: center;
+}
