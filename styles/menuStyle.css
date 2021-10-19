@@ -3,6 +3,8 @@ body
 {
     font-family: 'Roboto',sans-serif;
     color: black;
+    display: flex;
+    justify-content: center;
 }
 
 h1
@@ -20,6 +22,94 @@ h1
 /* Header */
 header 
 {
+    display: flex;   
+}
+
+.fa-arrow-left
+{
+    height: 100px;
+    width: 100px;
+    padding-top: 25px;
+}
+
+/*Image et titre du menu*/
+figure
+{
+    width: 100%;
+}
+
+figure img
+{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+figcaption
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+}
+
+.fa-heart
+{
+    height: 50px;
+    width: 50px;
+    padding-top: 25px;
+}
+
+/*Menu*/
+.menu_title
+{
+    display: block;
+}
+
+.menu_title:after {
+    display:block;
+    clear:both;
+    content : "";
+    position: relative;
+    left    : 0;
+    bottom  : 0;
+    max-width:250px;
+    height  : 3px;
+    width   : 50px;
+    border-bottom: 3px solid #99E2D0;
+}
+
+.food_choice
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px gray;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+/*Boutton commander*/
+.button_order
+{
     display: flex;
     justify-content: center;
+    width: 160px;
+    height: 55px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    margin-left: 40%;
+    margin-top: 40px;
 }
+
+input
+{
+    background-color: transparent;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+/*Footer*/
