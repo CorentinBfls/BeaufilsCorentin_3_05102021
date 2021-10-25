@@ -113,3 +113,26 @@ input
 }
 
 /*Footer*/
+footer
+{
+    background-color: #353535;
+    color: white;
+}
+
+.footer_title
+{
+    color: white;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+li
+{
+    padding-bottom: 5px;
+}
